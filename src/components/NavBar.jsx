@@ -12,6 +12,8 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+// import CarWidget from './components/CarWidget';
+
 
 
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -129,7 +131,7 @@ const NavBar = () => {
           <Box sx={{ flexGrow: 0 }}>
           <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="https://icongr.am/feather/shopping-cart.svg?size=20&color=currentColor" />
+                <Avatar alt="Remy Sharp" src="https://icongr.am/clarity/shopping-cart.svg?size=20&color=f8f7f7" />
                 {/* <CarWidget /> */}
               </IconButton>
             </Tooltip>
