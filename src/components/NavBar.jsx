@@ -7,12 +7,11 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-// import CarWidget from './components/CarWidget';
+import CarWidget from './CarWidget';
 
 
 
@@ -129,10 +128,9 @@ const NavBar = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-          <Tooltip title="Open settings">
+            <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="https://icongr.am/clarity/shopping-cart.svg?size=20&color=f8f7f7" />
-                {/* <CarWidget /> */}
+                <CarWidget />
               </IconButton>
             </Tooltip>
             <Menu
