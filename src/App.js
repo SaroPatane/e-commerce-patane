@@ -8,7 +8,7 @@ import ItemListContainer from './components/ItemListContainer';
 function App() {
     
   const onAdd = (count) => {
-    alert("sumaste ${count} productos");
+    alert(`sumaste ${count} productos`);
   }
 
 
@@ -17,7 +17,7 @@ function App() {
         <NavBar />
         <Imagen />
         <ItemListContainer/>
-        <ItemCount inicial = {1} max={12} onAdd = {onAdd} />
+        {/* <ItemCount inicial = {1} max={12} onAdd = {onAdd} /> */}
     </div>
   );
 }
