@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react'
 const ItemDetailContainer = () => {
 
     const userId = Math.floor(Math.random()*10)+1;
-    const datos = `https://jsonplaceholder.typicode.com/users/${userId}`
+    const itemDetail = `https://jsonplaceholder.typicode.com/users/${userId}`
 
     const [equipo, setEquipo] = useState([])
 
@@ -26,7 +26,7 @@ const ItemDetailContainer = () => {
         <ul className="ItemDetailCont">
             {
                 equipo.map(item =>(
-                    <li key="item.id">{item.name} - {item.email} <button><a href={datos}>Ver detalle</a></button></li>
+                    <li key="item.id">{item.name} - {item.email} <button><a href={itemDetail}>Ver detalle</a></button></li>
                 ))
             }
         </ul>
