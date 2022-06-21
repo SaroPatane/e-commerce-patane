@@ -1,10 +1,13 @@
 import React from 'react'
-import Avatar from '@mui/material/Avatar';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
 function CarWidget() {
   return (
-    <Avatar alt="Remy Sharp" src="https://icongr.am/clarity/shopping-cart.svg?size=20&color=f8f7f7" />
+    <>
+      <ShoppingCartIcon />
+    
+    </>
   )}
 
 export default CarWidget

@@ -16,9 +16,9 @@ function App() {
   return (
     <div className="App">
         <NavBar />
-        <Imagen />
+        {/* <Imagen /> */}
         <ItemDetailContainer />
-        {/* <ItemListContainer/> */}
+        {/* <ItemListContainer /> */}
         {/* <ItemCount inicial = {1} max={12} onAdd = {onAdd} /> */}
     </div>
   );
